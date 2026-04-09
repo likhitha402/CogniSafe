@@ -1081,7 +1081,6 @@ function Dashboard() {
     ["overview", "OVERVIEW"], ["dna", "DNA SENSOR"], ["email", "EMAIL BLOCK"],
     ["handoff", "PHONE HANDOFF"], ["intel", "THREAT INTEL"], ["shadow", "SHADOW ENV"], ["coach", "CYBER COACH"]
   ];
-
   return (
     <div style={{ minHeight: "100vh", background: "var(--bg)", position: "relative", paddingBottom: 140 }}>
       <Grid /><ParticleCanvas mode={mode} /><ScanLine />
